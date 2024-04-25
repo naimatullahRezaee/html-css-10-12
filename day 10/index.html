@@ -2,9 +2,32 @@
 <html lang="en">
   <head>
     <title>Attribute Input</title>
+
+    <link type="image/x-icon" href="../day 5/images/new/tm5.jpg" rel="icon" />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="keywords" content="html,css" />
+    <meta
+      name="description"
+      content="this is website taking about html and css."
+    />
+    <meta author="Rezaie" />
+
+    <!-- <script src="">
+      code js
+    </script> -->
+
+    <!-- <style>
+      code css
+    </style> -->
   </head>
   <body>
-    <form>
+    <a href="about.html">about</a>
+    <form method="post" enctype="multipart/form-data">
       username:
       <input
         type="text"
@@ -19,16 +42,16 @@
 
       gender:
       <br />
-      <input type="radio" name="g" value="male" required />
+      <input type="radio" checked name="g" value="male" />
       male
       <br />
-      <input type="radio" checked name="g" value="female" />
+      <input type="radio" name="g" value="female" />
       female
       <br />
 
-      <input type="checkbox" checked name="fa" /> Dari <br />
-      <input type="checkbox" checked name="ps" /> pashto <br />
-      <input type="checkbox" checked name="en" /> English <br />
+      <input type="checkbox" name="fa" /> Dari <br />
+      <input type="checkbox" name="ps" /> pashto <br />
+      <input type="checkbox" name="en" /> English <br />
 
       <!-- <textarea
         name=""
@@ -38,7 +61,14 @@
         rows="10"
       ></textarea> -->
 
+      <!-- <input type="text" maxlength="6" size="10" /><br />
+      file:
+      <input type="file" multiple />
+      <br /> -->
+
       <button type="submit">Send</button>
     </form>
+
+    <p style="text-align: right">سلام خوبی</p>
   </body>
 </html>
