@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "fontawesome";
+  src: url("fontawesome/webfonts/fa-brands-400.ttf") format("truetype"),
+    url("fontawesome/webfonts/fa-brands-400.woff2") format("woff2");
+}
+
+p {
+  font-family: "fontawesome";
+}
