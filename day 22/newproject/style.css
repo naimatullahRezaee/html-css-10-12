@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "myfont";
+  src: url("fonts/font1.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "myfont";
+}
+
+nav {
+  background-color: darkslategray;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right .logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.right ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.right ul li a {
+  text-decoration: none;
+  color: white;
+  font: 25px;
+  padding: 17px 35px;
+}
+
+.right ul li a:hover {
+  background-color: rgb(55, 167, 167);
+  color: black;
+  box-shadow: 0 0 10px lightgray;
+}
+
+.left a {
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.left .btn button {
+  width: 70px;
+  height: 28px;
+  background-color: darkslategray;
+  border: none;
+  box-shadow: 0 0 10px lightgray;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.left .btn button:hover {
+  background-color: rgb(55, 167, 167);
+  color: black;
+  box-shadow: 0 0 10px lightgray;
+}
