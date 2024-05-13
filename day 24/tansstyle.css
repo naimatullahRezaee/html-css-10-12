@@ -1,0 +1,65 @@
+/* .box1,
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue; */
+
+/* margin: 200px auto; */
+/* transition-property: width, background-color;
+  transition-duration: 2s;
+  transition-delay: 3s; */
+/* transition: all 4s; */
+/* margin: 30px;
+  color: white; */
+/* transition: all 3s; */
+/* } */
+
+/* .cat {
+  width: 200px;
+  height: 200px;
+  transition: all 2s;
+} */
+
+/* .cat:hover { */
+/* transform: translate(-100px, -100px); */
+
+/* transform: scale(1); */
+/* transform: rotate(10turn); */
+/* transform: skewX(-45deg); */
+/* transform: skew(45deg);
+} */
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  /* background-color: red; */
+  border: 20px solid lightgray;
+  border-top: 20px solid blue;
+  border-radius: 50%;
+  /* animation-name: changecolor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite; */
+  animation: loader 1s infinite linear;
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 
+@keyframes changecolor {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: rgb(53, 224, 87);
+  }
+  100% {
+    background-color: blue;
+  }
+} */
